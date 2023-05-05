@@ -10,7 +10,7 @@ specifiers:
   clsx: ^1.2.1
   eslint: 8.39.0
   eslint-config-next: 13.4.0
-  lucide-react: ^0.209.0
+  lucide-react: ^0.211.0
   next: 13.4.0
   next-themes: ^0.2.1
   postcss: 8.4.23
@@ -31,7 +31,7 @@ dependencies:
   clsx: 1.2.1
   eslint: 8.39.0
   eslint-config-next: 13.4.0_iacogk7kkaymxepzhgcbytyi7q
-  lucide-react: 0.209.0_react@18.2.0
+  lucide-react: 0.211.0_react@18.2.0
   next: 13.4.0_biqbaboplfbrettd7655fr4n2y
   next-themes: 0.2.1_o36i5nnimpwjhlcn4bax4pcnvu
   postcss: 8.4.23
@@ -1820,8 +1820,8 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /lucide-react/0.209.0_react@18.2.0:
-    resolution: {integrity: sha512-dLnPoSEZkyvf3aKQ2Lo96KM49Jx12RGW5sIaiP5OXwai8Mt7tsqOjtUiShToxpZx3AcOrnfe/wGEhU39c0quWw==}
+  /lucide-react/0.211.0_react@18.2.0:
+    resolution: {integrity: sha512-YRXK55KqWWcT1zPg89MWl2L6/dAFjaAcx5QQCdn1LS/DqHkZ83ibYu94CxYJpeq+/ZQrNMYhh/JF2BNKPDQo1g==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
