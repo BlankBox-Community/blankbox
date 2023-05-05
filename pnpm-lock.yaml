@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': 18.16.3
+  '@types/node': 18.16.4
   '@types/react': 18.2.5
   '@types/react-dom': 18.2.3
   '@vercel/analytics': ^1.0.1
@@ -10,7 +10,7 @@ specifiers:
   clsx: ^1.2.1
   eslint: 8.39.0
   eslint-config-next: 13.4.0
-  lucide-react: ^0.209.0
+  lucide-react: ^0.211.0
   next: 13.4.0
   next-themes: ^0.2.1
   postcss: 8.4.23
@@ -22,7 +22,7 @@ specifiers:
   typescript: 5.0.4
 
 dependencies:
-  '@types/node': 18.16.3
+  '@types/node': 18.16.4
   '@types/react': 18.2.5
   '@types/react-dom': 18.2.3
   '@vercel/analytics': 1.0.1
@@ -31,7 +31,7 @@ dependencies:
   clsx: 1.2.1
   eslint: 8.39.0
   eslint-config-next: 13.4.0_iacogk7kkaymxepzhgcbytyi7q
-  lucide-react: 0.209.0_react@18.2.0
+  lucide-react: 0.211.0_react@18.2.0
   next: 13.4.0_biqbaboplfbrettd7655fr4n2y
   next-themes: 0.2.1_o36i5nnimpwjhlcn4bax4pcnvu
   postcss: 8.4.23
@@ -285,8 +285,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
 
-  /@types/node/18.16.3:
-    resolution: {integrity: sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==}
+  /@types/node/18.16.4:
+    resolution: {integrity: sha512-LUhvPmAKAbgm+p/K11IWszLZVoZDlMF4NRmqbhEzDz/CnCuehPkZXwZbBCKGJsgjnuVejotBwM7B3Scrq4EqDw==}
     dev: false
 
   /@types/prop-types/15.7.5:
@@ -1820,8 +1820,8 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /lucide-react/0.209.0_react@18.2.0:
-    resolution: {integrity: sha512-dLnPoSEZkyvf3aKQ2Lo96KM49Jx12RGW5sIaiP5OXwai8Mt7tsqOjtUiShToxpZx3AcOrnfe/wGEhU39c0quWw==}
+  /lucide-react/0.211.0_react@18.2.0:
+    resolution: {integrity: sha512-YRXK55KqWWcT1zPg89MWl2L6/dAFjaAcx5QQCdn1LS/DqHkZ83ibYu94CxYJpeq+/ZQrNMYhh/JF2BNKPDQo1g==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
