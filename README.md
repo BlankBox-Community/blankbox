@@ -1,3 +1,3 @@
 # BlankBox
 
-![banner](/public/banner.jpg)
+![banner](https://i.ibb.co/ygP0BQ2/opengraph-image.png)
