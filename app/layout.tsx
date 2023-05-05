@@ -4,10 +4,16 @@ import { Analytics } from "@/components/analytics";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 
 const fontSans = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+});
+
+const fontHeading = localFont({
+  src: "../assets/fonts/CalSans-SemiBold.woff2",
+  variable: "--font-heading",
 });
 
 interface RootLayoutProps {
@@ -53,7 +59,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          fontSans.variable,
+          fontHeading.variable
         )}
       >
         {children}

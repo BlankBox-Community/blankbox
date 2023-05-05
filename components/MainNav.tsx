@@ -15,10 +15,8 @@ export function MainNav({ items, children }: MainNavProps) {
   const segment = useSelectedLayoutSegment();
   return (
     <div className="flex gap-6 md:gap-10">
-      <Link href="/" className="hidden items-center space-x-2 md:flex">
-        <span className="hidden font-bold sm:inline-block">
-          {siteConfig.name}
-        </span>
+      <Link href="/" className="items-center space-x-2 md:flex">
+        <span className="font-bold sm:inline-block">{siteConfig.name}</span>
         <span
           aria-hidden="true"
           className="hidden md:block md:h-6 md:w-px md:bg-gray-100"

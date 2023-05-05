@@ -13,7 +13,7 @@ interface MarketingLayoutProps {
 export default function MarketingLayout({ children }: MarketingLayoutProps) {
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="container sticky top-0 z-40">
+      <header className="container top-0 z-40">
         <div className="flex h-20 items-center justify-between">
           <MainNav items={marketingConfig.mainNav} />
           <nav>
