@@ -1,7 +1,7 @@
 import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-  name: "Hexagon",
+  name: "BlankBox",
   description: "",
   url: "",
   ogImage: "",
