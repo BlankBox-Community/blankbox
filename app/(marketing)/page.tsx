@@ -1,5 +1,49 @@
-import Image from "next/image";
+import Link from "next/link";
+import { siteConfig } from "@/config/site";
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/Button";
+
+// TODO: Fetch GitHub Starts
 
 export default function Home() {
-  return <main className="container">hello</main>;
+  return (
+    <>
+      <section className="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
+        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
+          <Link
+            href={siteConfig.links.twitter}
+            className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium hover:bg-[#E8F5FD]"
+            target="_blank"
+          >
+            Follow along on Twitter
+          </Link>
+          <h1 className="font-heading font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
+            kickstart your frontend project with little effort.
+          </h1>
+          <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+            With Blankbox in the picture, newbies no longer have to worry about
+            provisioning servers or databases.
+          </p>
+          <div className="space-x-4">
+            <Link
+              href="/docs"
+              className={cn(
+                buttonVariants({ intent: "primary", size: "large" })
+              )}
+            >
+              Get Started
+            </Link>
+            <Link
+              href={siteConfig.links.github}
+              target="_blank"
+              rel="noreferrer"
+              className={cn(buttonVariants({ size: "large", outline: true }))}
+            >
+              GitHub
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
