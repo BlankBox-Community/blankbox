@@ -1,3 +1,6 @@
+import { Icons } from "@/components/Icons";
+import type { Icon } from "lucide-react";
+
 export type SiteConfig = {
   name: string;
   description: string;
@@ -22,4 +25,25 @@ export type MainNavItem = NavItem;
 
 export type MarketingConfig = {
   mainNav: MainNavItem[];
+};
+
+export type SidebarNavItem = {
+  title: string;
+  disabled?: boolean;
+  external?: boolean;
+  icon?: keyof typeof Icons;
+} & (
+  | {
+      href: string;
+      items?: never;
+    }
+  | {
+      href?: string;
+      items: NavLink[];
+    }
+);
+
+export type DocsConfig = {
+  mainNav: MainNavItem[];
+  sidebarNav: SidebarNavItem[];
 };
