@@ -12,29 +12,25 @@ export const docsConfig: DocsConfig = {
       title: "Getting Started",
       items: [
         {
-          title: "Introduction",
-          href: "/docs",
+          title: "Installation",
+          href: "/docs/documentation",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "Guides",
       items: [
         {
           title: "Introduction",
-          href: "/docs/documentation",
+          href: "/docs/guides",
         },
         {
           title: "Components",
-          href: "/docs/documentation/components",
+          href: "/docs/guides/components",
         },
         {
           title: "Code Blocks",
-          href: "/docs/documentation/code-blocks",
-        },
-        {
-          title: "Style Guide",
-          href: "/docs/documentation/style-guide",
+          href: "/docs/guides/code-blocks",
         },
       ],
     },
