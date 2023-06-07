@@ -17,7 +17,7 @@ specifiers:
   contentlayer: ^0.3.2
   eslint: 8.39.0
   eslint-config-next: 13.4.4
-  lucide-react: ^0.221.0
+  lucide-react: ^0.241.0
   mdast-util-toc: ^6.1.1
   next: 13.4.4
   next-contentlayer: ^0.3.2
@@ -54,7 +54,7 @@ dependencies:
   contentlayer: 0.3.2
   eslint: 8.39.0
   eslint-config-next: 13.4.4_iacogk7kkaymxepzhgcbytyi7q
-  lucide-react: 0.221.0_react@18.2.0
+  lucide-react: 0.241.0_react@18.2.0
   next: 13.4.4_biqbaboplfbrettd7655fr4n2y
   next-contentlayer: 0.3.2_z4pol2qj2yv3um3jqqobs4b3eu
   next-themes: 0.2.1_z4pol2qj2yv3um3jqqobs4b3eu
@@ -3636,8 +3636,8 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /lucide-react/0.221.0_react@18.2.0:
-    resolution: {integrity: sha512-g99pn2/lBaCEAA0cbi4eaCO+3rY4mSfjCaDlo8Z30F0wk8MXoBXhCR1TaUS9cmNdOP9VGxgUpoB4qMg7/vyC8A==}
+  /lucide-react/0.241.0_react@18.2.0:
+    resolution: {integrity: sha512-g22ci6iHuNc2hUwjiFz0D3jQQfQYrZBZesXG6+AX5rOV68Epttkt/nF6dMdz6reKJjtpoNzu+LKeKHGu/qjOgQ==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
