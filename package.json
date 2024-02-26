@@ -16,7 +16,7 @@
     "@radix-ui/react-menubar": "^1.0.2",
     "@radix-ui/react-navigation-menu": "^1.1.2",
     "@radix-ui/react-toast": "^1.1.3",
-    "@types/node": "18.16.4",
+    "@types/node": "18.16.17",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.3",
     "@vercel/analytics": "^1.0.1",
